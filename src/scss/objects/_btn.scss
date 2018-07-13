@@ -1,0 +1,26 @@
+.btn {
+	padding: $spacer $spacer*2;
+	border: 0;
+	box-shadow: $box-shadow-sm;
+	//text-transform: uppercase;
+	font-weight: 700;
+
+	&:not(.btn-light):not(.btn-white) {
+		color: white;
+	}
+
+	&:hover,
+	&:focus {
+		box-shadow: $box-shadow-lg;
+	}
+
+	&:active {
+		box-shadow: $box-shadow-sm !important;
+		border: 0;
+		transform: scale(0.95);
+	}
+
+	&-translucent {
+		background: rgba(white, 0.2);
+	}
+}

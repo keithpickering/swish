@@ -1,0 +1,77 @@
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "objects/container";
+@import "objects/card";
+@import "objects/list";
+@import "objects/btn";
+@import "objects/form";
+
+@import "components/content-section";
+@import "components/slider";
+@import "components/testimonial";
+@import "components/pricing";
+
+html,
+body {
+	overflow-x: hidden;
+}
+
+html {
+	font-size: 14px;
+	line-height: 1.4;
+
+	@include media-breakpoint-up(md) {
+		font-size: 18px;
+	}
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	color: #37474F;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1, h2, h3,
+h4, h5, h6,
+.h1, .h2, .h3,
+.h4, .h5, .h6 {
+	font-weight: 700;
+	margin-bottom: $spacer;
+}
+
+.display-4 {
+	font-size: 2.75rem;
+}
+
+.site-logo {
+	margin-bottom: $spacer*3;
+
+	@include media-breakpoint-up(md) {
+		margin-bottom: $spacer*7;
+	}
+
+	> img {
+		height: 24px;
+
+		@include media-breakpoint-up(md) {
+			height: 32px;
+		}
+	}
+}
+
+.company-logo {
+	max-height: 3rem;
+}
+
+.text-muted {
+	color: rgba(black, 0.35) !important;
+
+	.bg-dark & {
+		color: rgba(white, 0.35) !important;
+	}
+}

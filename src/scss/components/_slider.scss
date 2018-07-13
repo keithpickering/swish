@@ -1,0 +1,20 @@
+.tns-nav {
+	width: 100%;
+	text-align: center;
+	margin-bottom: $spacer;
+
+	button {
+		display: inline-block;
+		margin: 0 $spacer/2;
+		width: 0.75em;
+		height: 0.75em;
+		background: rgba(black, 0.1);
+		border: 0;
+		border-radius: 50%;
+		outline: 0;
+	}
+
+	.tns-nav-active {
+	    background: theme-color("secondary");
+	}
+}

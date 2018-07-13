@@ -1,0 +1,23 @@
+.list {
+	margin-bottom: $spacer*2;
+	padding-left: 0;
+
+	li {
+		position: relative;
+		list-style: none;
+		margin-bottom: $spacer;
+		padding-left: $spacer*2;
+
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0.4em;
+			left: 0;
+			margin-right: $spacer*1.25;
+			width: 0.75em;
+			height: 0.75em;
+			border-radius: 50%;
+			background: theme-color("tertiary");
+		}
+	}
+}

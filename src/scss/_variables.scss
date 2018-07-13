@@ -1,0 +1,45 @@
+
+
+/**
+ * COLORS
+ */
+$theme-colors: (
+  primary:   #66BB6A, //#AB47BC
+  secondary: #BA68C8, //#9CCC65
+  tertiary:  #FF8A65
+);
+
+$gray-100: #ECEFF1;
+
+$gradient-start:  desaturate(#f66f3f, 18%);
+$gradient-middle: desaturate(#e91e63, 18%);
+$gradient-end:    desaturate(#553086, 18%);
+
+$box-shadow-sm: 0 6px 24px rgba(#263238, 0.1), 0 2px 6px rgba(#263238, 0.15);
+$box-shadow-lg: 0 12px 36px rgba(#263238, 0.1), 0 4px 12px rgba(#263238, 0.15);
+$box-shadow-xl: 0 20px 56px rgba(#263238, 0.2);
+
+/**
+ * BRAND COLORS
+ */
+$facebook: #3b5998;
+$twitter: #1da1f2;
+$youtube: #ff0000;
+$instagram: #c32aa3;
+$pinterest: #bd081c;
+$linkedin: #007bb5;
+$googleplus: #db4437;
+$google: #4285f4;
+$tumblr: #35465d;
+$soundcloud: #ff5500;
+
+$brand-colors: facebook $facebook,
+			   twitter $twitter,
+			   youtube $youtube,
+			   instagram $instagram,
+			   pinterest $pinterest,
+			   linkedin $linkedin,
+			   googleplus $googleplus,
+			   google $google,
+			   tumblr $tumblr,
+			   soundcloud $soundcloud;

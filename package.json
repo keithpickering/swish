@@ -1,0 +1,19 @@
+{
+  "name": "swish",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.1.1",
+    "grunt": "^1.0.3",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-qunit": "~0.5.2",
+    "grunt-contrib-uglify-es": "^3.3.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-sass": "^2.1.0"
+  },
+  "dependencies": {}
+}
